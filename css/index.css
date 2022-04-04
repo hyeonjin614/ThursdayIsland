@@ -1,0 +1,745 @@
+@charset "UTF-8";
+
+* {margin: 0; padding: 0;}
+
+li {list-style: none;}
+a {
+    text-decoration: none;
+   
+    color: #333;
+    display: block;
+}
+
+body {
+    max-width: 1920px;
+    overflow-x: hidden;
+}
+header .xi-bars {
+    display: none;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    background-color: #fff;
+
+}
+
+header > div {
+    width:calc(100% - 80px);
+    margin: 0 auto;
+    /* position:relative; */
+    height: 100%;
+
+}
+
+header div::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+header div h1 {
+    float: left;
+
+}
+
+header div img {
+    /* 로고 이미지 */
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+header div nav {
+    float: right;
+    
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 auto;
+    
+}
+
+header nav ul li a {
+    margin: 0 20px;
+    font-size: 15px;
+    /* font-weight: bold; */
+}
+
+/* @@@ */
+
+.main_visual {
+    height: 830px;
+    position: relative;
+   
+}
+
+.main_visual video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main_visual h2 {
+    position:absolute ;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    font-size: 22px;
+    color: #fff;
+
+
+    letter-spacing: 10px;
+
+}
+
+/* @@@@@ list @@@@@ */
+
+
+.list {
+    width: 1240px;
+
+    display: block;
+    margin: 0 auto;
+    /* text-align: center; */
+    
+    padding-top: 60px;
+    /* background-color: aquamarine; */
+}
+
+.list::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.list dl { 
+
+    width: 400px;
+    height: 542px;
+    display:block;
+    float: left;
+ 
+    margin-right: 20px;
+   
+    box-sizing: border-box;
+    text-align: center;
+   
+}
+
+.list dl:last-child {
+    margin-right: 0;
+}
+
+.list img {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.list-title {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+
+}
+
+
+.list-title h3 {
+    margin: 0 auto;
+
+    font-size: 30px;
+    padding-top: 130px;
+    width: 200px;
+    text-align: center;
+    
+    text-align: center;
+    border-bottom: 1px solid #333;
+    
+    
+    color:#2d2d2d;
+    /* font-family: 'Rozha One', serif; */
+    font-family: 'Mate SC', serif;
+    
+}
+
+.list dl dt {
+    font-weight: bold;
+    padding-top: 20px;
+   
+}
+
+.list dl .won {
+    margin-top:7px;
+    color: #888;
+    text-decoration: line-through;
+    font-weight: bold;
+
+}
+
+
+.list dl .won span {
+    display:inline-block;
+    color: rgb(186, 186, 186);
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+/* @@@@ */
+
+
+.banner {
+    width: 100%;
+   
+    padding-top: 50px;
+    text-align: center;
+    position: relative;
+    
+}
+
+.banner img {
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.banner ul li:first-of-type {
+    display: block;
+    font-size: 70px;
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    color: #fff;
+    transform: translate(-50%);
+    letter-spacing: 15px;
+    text-align-last: center;
+    
+    font-family: 'Mate SC', serif;
+
+}
+
+.banner ul li:nth-of-type(2) {
+    /* font-size: 15px; */
+    position: absolute;
+    bottom: 8%;
+    left: 50%;
+    color: #fff;
+    transform: translate(-50%);
+    
+
+    font-size: 19px;
+    color: #fff;
+    font-weight: bold;
+
+    padding: 5px 10px;
+    letter-spacing: 10px;
+    
+}
+
+.banner ul li:nth-of-type(3) a {
+    color: #fff;
+    position:absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translate(-50%);
+
+    display: block;
+
+    width: 120px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #fff;
+    background-color: rgba(255, 255, 255, 0.24);
+
+
+}
+
+/* @@@@@@@@@@@@@@ */
+
+.lookbook01 p {
+
+margin: 0 auto;
+
+    font-size: 30px;
+    padding-top: 100px;
+    width: 170px;
+    text-align: center;
+    
+    text-align: center;
+    border-bottom: 1px solid #333;
+    
+    
+    color:#2d2d2d;
+    /* font-family: 'Rozha One', serif; */
+    font-family: 'Mate SC', serif;
+    
+
+}
+
+.lookbook01 img {
+    width: 300px;
+  
+}
+
+.lookbook01 {
+    width: 1260px;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 100px;
+ 
+    position: relative;
+    /* background-color: aqua; */
+    
+
+}
+
+.lookbook01::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.lookbook01 dl {
+    background: #333;
+    width: 300px;
+    height: 620px;
+    float: left;
+
+    margin-right: 20px;
+    transition: 1.0s;
+
+    margin-top: 90px;
+    position: relative;
+
+}
+
+.lookbook01 dl::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.lookbook01 dl:last-of-type {
+    margin-right: 0;
+}
+
+/* 상품명 가격 */
+
+.lookbook01 dl dt {
+
+    
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%);
+    color: #fff;
+    font-weight: bold;
+    transition: 1.0s;
+ 
+}
+
+.lookbook01 dl dt ~ dd {
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%);
+    color: #fff;
+    transition: 1.0s;   
+
+}
+
+.lookbook01 dl dd span {
+ color: aqua;
+}
+
+.lookbook01 dl .won {
+    margin-top:7px;
+    color: rgb(91, 91, 91);
+    text-decoration: line-through;
+    font-weight: bold;
+    transition: 0.6s;   
+
+}
+
+.lookbook01 .won span {
+    display:inline-block;
+    color: rgb(186, 186, 186);
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+/* lookbook01 hover */
+
+
+
+.lookbook01 dl:first-of-type:hover img {
+  opacity: 50%;}
+.lookbook01 dl dt { opacity: 0;}
+.lookbook01 .won { opacity: 0;}
+
+/*  */
+
+.lookbook01 dl:nth-of-type(2):hover img {
+    opacity: 50%;}
+.lookbook01 dl:first-of-type:hover dt {
+    opacity: 100;}
+.lookbook01 dl:first-of-type:hover .won{
+    opacity: 100;}
+
+ /*  */
+
+ .lookbook01 dl:nth-of-type(3):hover img {
+    opacity: 50%;}
+.lookbook01 dl:nth-of-type(2):hover dt {
+    opacity: 100;}
+.lookbook01 dl:nth-of-type(2):hover .won{
+    opacity: 100;}
+
+.lookbook01 dl:nth-of-type(3):hover dt {
+    opacity: 100;}
+.lookbook01 dl:nth-of-type(3):hover .won{
+    opacity: 100;}
+
+/*  */
+
+.lookbook01 dl:last-of-type:hover img {
+    opacity: 50%;}
+.lookbook01 dl:last-of-type:hover dt {
+    opacity: 100;}
+.lookbook01 dl:last-of-type:hover .won {
+    opacity: 100;}
+
+ /*  */
+
+ /* @@@@@@@@@ lookbook02-1 @@@@@@@@@@@ */
+
+ /* 룩북 타이틀 이미지 */
+
+ .lookbook_title {
+     width: 100%;
+     text-align: center;
+ }
+
+.lookbook_title img {
+    width: 500px;
+    text-align: center;
+}
+
+
+/* 인스타 */
+ .lookbookwrap {
+    max-width: 1200px;
+    width: calc(100% - 20px);
+    margin: 30px auto;
+    
+  
+     
+ }
+
+ .lookbook02 {
+    /* background-color: #333; */
+
+     display: block;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+
+     margin: 0 auto;
+
+
+ }
+
+
+.lookbook02 div p img {
+    width: 100%;
+    
+
+}
+
+.lookbook02 > div {
+    position: relative;
+    width: 370px;
+    height: 370px;
+  
+    overflow: hidden;
+    margin-bottom: 10px;
+  
+}
+
+.lookbook02 > div span .xi-instagram {
+    
+    display: block;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-50%);
+    display: none;
+  
+
+    transition: 0.5s ease-in-out;
+    
+}
+
+.lookbook02 > div:hover {
+    background-color: rgb(0, 0, 0);
+   
+}
+
+.lookbook02 > div:hover img {
+    opacity: 40% ;
+    
+}
+
+.lookbook02  div:hover .xi-instagram {
+    display: block;
+    font-size: 50px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+}
+
+
+.lookbook03 {
+    width: 770px;
+    margin: 0 auto;
+    display: block;
+    
+    /* background-color: bisque; */
+}
+
+.lookbook03::after {
+    content: '';
+    display: block;
+    clear: both;
+ }
+
+.lookbook03 dl img {
+    width: 120px;   
+    transition: 0.7s;
+}
+
+.lookbook03 dl:first-of-type img {
+    width: 90px; }
+
+.lookbook03 dl:nth-of-type(4) img {
+    width: 90px;}
+
+.lookbook03 dl:nth-of-type(2) img {
+    width: 150px;}
+
+.lookbook03 dl:last-of-type img {
+    width: 150px;}
+
+
+    
+.lookbook03 dl {
+   padding-top: 40px;
+    width:150px;
+    float: left;
+    height: 300px;
+    line-height: 260px;
+    position: relative;
+
+}
+
+.lookbook03 dl:last-of-type img {
+    padding-top:20px;
+    width: 130px;
+}
+
+.lookbook03 dl dt a{
+    position: absolute;
+    top: 0;
+    left: 17%;
+    font-weight: bold;
+    opacity: 0;
+    color:rgb(62, 62, 62);
+
+}
+
+.lookbook03 dl:nth-of-type(2) dt a{
+    position: absolute;
+    top: 0;
+    left: 34%;
+
+}
+
+.lookbook03 dl:last-of-type dt a{
+    position: absolute;
+    top: 0;
+    left: 31%;
+   
+
+
+}
+.lookbook03 dl:nth-of-type(3) dt a{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-60%);
+    color:rgb(62, 62, 62);
+    font-weight: bold;
+    opacity: 0;
+
+
+}
+
+.lookbook03 dl:nth-of-type(2) {
+   padding-right: 20px;
+  
+}
+
+/* */
+.lookbook03 dl:hover img{
+    opacity: 30%;
+}
+
+.lookbook03 dl:hover dt a{
+    opacity: 100;}
+
+
+
+/* @@@@@@@ footer@@@@ */
+
+footer {
+    padding-top:40px;
+    height: 200px;
+    background-color: rgb(130, 130, 130);
+   
+    
+
+    position: relative;
+
+}
+
+
+footer .footer_01 {
+    width: calc(100% - 350px);
+    margin: 0 auto;
+}
+footer div p {
+    color: rgba(255, 255, 255, 0.708);
+  
+    margin: 10px 0;
+    letter-spacing:1px;
+    font-size: 14px;
+    
+}
+
+footer div p:last-child {
+    color: rgb(183, 183, 183);
+    margin-top: 40px;
+}
+
+
+/* footer sns */
+footer .footer_02 {
+    float: left;
+ 
+    position: absolute;
+    top: 20%;
+    right: 10%; 
+  
+}
+
+footer .footer_02 ul li {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+
+/* footer sns 이모지 */
+.xi-youtube-play {
+    /* 유튜브 */
+    font-size: 50px;
+    transition: 0.3s ease-in-out;
+
+}
+.xi-youtube-play:hover {
+        /* 유튜브 hover 색상 */
+    color: red;
+}
+
+.xi-facebook-official {
+    /* 페이스북 */
+    font-size: 50px;
+    transition: 0.3s ease-in-out;
+}
+
+.xi-facebook-official:hover {
+    /* 페이스북 hover 색상 */
+    color: #4867aa;
+
+}
+
+footer .xi-instagram {
+    /* 인스타그램 */
+    font-size: 50px;
+
+
+}
+
+footer .footer_02 ul li .xi-instagram a {
+    transition: 0.3s ease-in-out;
+
+}
+
+
+
+footer .xi-instagram:hover {
+    /* 인스타그램 hover*/
+    background: linear-gradient(to top , #fbca76, #d94b7b, #9759a4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+}
+
+@media screen and (max-width:1024px) {
+    header nav {display: none;}
+
+    header > div {
+        width: calc(100% - 80px);
+
+    }
+
+    
+    header nav {display: none;}
+
+    header > div {
+        width: calc(100% - 80px);
+    } 
+
+        header { position: fixed;}
+        header nav {display: none;}
+    
+
+        header .xi-bars {
+            /* 햄버거 xi */
+            display: block;
+            float: right;
+            line-height: 75px;
+            font-size: 40px;
+            color: #333;
+            }
+            .xi-bars span {
+                display: none;
+                }
+
+}
+
+
+
+
